@@ -1,0 +1,54 @@
+.app-container {
+  background-color: #9ba9eb;
+  padding: 15px;
+}
+
+.app-logo {
+  height: 35px;
+}
+
+.passwords-create-container {
+  width: 100%;
+  background-color: #5763a5;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 12px 20px 12px;
+  border-radius: 8px;
+}
+
+.password-manager-image {
+  max-height: 280px;
+}
+
+.password-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #454f84;
+  padding: 10px 12px 10px 12px;
+  border-radius: 10px;
+}
+
+.add-new-password-heading {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #f8fafc;
+  height: 38px;
+  border-radius: 3px;
+}
+
+.input-icon {
+  height: 25px;
+  margin-right: 1px;
+  border-right: 2px solid #c3caea;
+  padding-left: 6px;
+  padding-right: 6px;
+}
