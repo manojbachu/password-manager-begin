@@ -16,7 +16,7 @@ class PasswordManager extends Component {
             src="https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png"
             alt="password manager"
           />
-          <div className="password-container">
+          <form className="password-container">
             <h1 className="add-new-password-heading">Add New Password</h1>
             <div className="input-container">
               <img
@@ -24,8 +24,45 @@ class PasswordManager extends Component {
                 src="https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png"
                 alt="website"
               />
+
+              <input
+                className="input"
+                type="text"
+                placeholder="Enter Website"
+              />
             </div>
-          </div>
+            <div className="input-container">
+              <img
+                className="input-icon"
+                src="https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png "
+                alt="username"
+              />
+
+              <input
+                className="input"
+                type="text"
+                placeholder="Enter Website"
+              />
+            </div>
+            <div className="input-container">
+              <img
+                className="input-icon"
+                src="https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png "
+                alt="password"
+              />
+
+              <input
+                className="input"
+                type="password"
+                placeholder="Enter Website"
+              />
+            </div>
+            <div className="add-button-container">
+              <button className="add-button" type="submit">
+                Add
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     )
