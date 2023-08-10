@@ -23,11 +23,12 @@
 }
 
 .password-container {
+  margin-top: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #454f84;
-  padding: 10px 12px 10px 12px;
+  padding: 10px 12px 15px 12px;
   border-radius: 10px;
 }
 
@@ -38,17 +39,54 @@
 
 .input-container {
   display: flex;
+
   width: 100%;
   align-items: center;
   background-color: #f8fafc;
-  height: 38px;
-  border-radius: 3px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 12px;
 }
 
 .input-icon {
-  height: 25px;
-  margin-right: 1px;
-  border-right: 2px solid #c3caea;
-  padding-left: 6px;
-  padding-right: 6px;
+  height: 22px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #f8fafc;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-left: 2px solid #c3caea;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.add-button-container {
+  text-align: right;
+}
+
+.add-button {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 8px 20px 8px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
 }
