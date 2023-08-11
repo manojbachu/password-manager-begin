@@ -12,8 +12,13 @@ class PasswordManager extends Component {
         />
         <div className="passwords-create-container">
           <img
-            className="password-manager-image"
+            className="password-manager-sm-image"
             src="https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png"
+            alt="password manager"
+          />
+          <img
+            className="password-manager-lg-image"
+            src="https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png"
             alt="password manager"
           />
           <form className="password-container">
@@ -53,7 +58,7 @@ class PasswordManager extends Component {
 
               <input
                 className="input"
-                type="password"
+                type="current-password"
                 placeholder="Enter Website"
               />
             </div>
@@ -63,6 +68,21 @@ class PasswordManager extends Component {
               </button>
             </div>
           </form>
+        </div>
+        <div className="passwords-store-container">
+          <div>
+            <h1 className="your-passwords-heading">
+              Your Passwords <span className="passwords-count">0</span>
+            </h1>
+            <div className="search-input-container">
+              <img
+                className="search-icon"
+                src="https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png "
+                alt="username"
+              />
+              <input className="search" type="search" placeholder="search" />
+            </div>
+          </div>
         </div>
       </div>
     )
